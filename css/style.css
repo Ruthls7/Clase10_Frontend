@@ -1,0 +1,88 @@
+/**{box-sizing: border-box;}*/
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.Inicio{
+    background-color: #1CD1B0;
+    color: black;
+    font-size: 15px;
+    padding: 8px 0px 8px 27px;
+ }
+
+
+.titulo{
+    background-color: #00669F;
+    color: black;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+    margin: 0px !important;
+    padding: 6px 0px 6px 28px;
+}
+.main{
+    padding: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#columna1, #columna2 {    
+    float: left;
+    background: #F3F3F3;
+    margin-right: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+
+#columna3{
+    float: left;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+    
+.imaliga{
+    position: absolute;
+}
+
+.cora{
+    position: relative;
+    left: -121px;
+    top: -89px;
+}
+
+.imabat{
+    position: relative;
+    top: 132px;
+    left: 84px;
+}
+
+.Batman{
+    position: relative;
+    top: 120px;
+    left: 96px;
+}
+
+.parrafo{
+    width: 262px;
+    position: relative;
+    top: 112px;
+    padding: 19px;
+}
+
+.Boton{
+    position: sticky;
+    background: #00669F;
+    border: none;
+    padding: 15px 35px;
+    color: #ffffff;
+    margin-top: 113px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    background: #286af0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 20px;
+    color: white;
+}
